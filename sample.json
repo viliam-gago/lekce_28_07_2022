@@ -1,0 +1,43 @@
+{
+  "job_id": 239,
+  "run_id": 119,
+  "number_in_job": 1,
+  "original_attempt_run_id": 119,
+  "state": {
+    "life_cycle_state": "TERMINATED",
+    "result_state": "SUCCESS",
+    "state_message": ""
+  },
+  "task": {
+    "notebook_task": {
+      "notebook_path": "/Users/someone@example.com/notebooks/my-notebook.ipynb"
+    }
+  },
+  "cluster_spec": {
+    "new_cluster": {
+      "spark_version": "8.1.x-scala2.12",
+      "aws_attributes": {
+        "zone_id": "us-west-2c",
+        "availability": "SPOT_WITH_FALLBACK"
+      },
+      "node_type_id": "m5d.large",
+      "enable_elastic_disk": false,
+      "num_workers": 1
+    }
+  },
+  "cluster_instance": {
+    "cluster_id": "1234-567890-abcd123",
+    "spark_context_id": "1234567890123456789"
+  },
+  "start_time": 1618510327335,
+  "setup_duration": 191000,
+  "execution_duration": 41000,
+  "cleanup_duration": 2000,
+  "end_time": 1618510561615,
+  "trigger": "ONE_TIME",
+  "creator_user_name": "someone@example.com",
+  "run_name": "my-notebook-run",
+  "run_page_url": "https://dbc-a1b2345c-d6e7.cloud.databricks.com/?o=1234567890123456#job/239/run/1",
+  "run_type": "JOB_RUN",
+  "attempt_number": 0
+}
